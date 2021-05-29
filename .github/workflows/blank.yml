@@ -33,7 +33,7 @@ jobs:
       - name: Run a multi-line script
         run: |
           echo What is in this repository?
-          li -a
+          ls -a
           echo Is java installed?
           java --version
           echo
